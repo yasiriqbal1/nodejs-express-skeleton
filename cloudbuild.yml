@@ -7,4 +7,4 @@ steps:
   - '-c'
   - |
     set -x && \
-    gcloud compute ssh e2-micro --zone=us-central1-a --command='/bin/sh /home/yasar.iqbal/pull.sh'
+    gcloud compute ssh node-js --zone=us-central1-a --command='/bin/sh /home/yasar.iqbal/pull.sh'
