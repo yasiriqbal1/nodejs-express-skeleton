@@ -7,4 +7,4 @@ steps:
   - '-c'
   - |
     set -x && \
-    gcloud compute ssh medium-server-2 --zone=europe-west2-c --command='/bin/sh /home/bnatanelic/pull.sh'
+    gcloud compute ssh e2-micro --zone=us-central1-a --command='/bin/sh /root/pull.sh'
